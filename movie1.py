@@ -1,0 +1,9 @@
+movie_name=["Golmaal","Partner","Singham"]
+movie_id=[2001,2002,2003]
+print(len(movie_name))
+print(movie_name+movie_id)
+print(movie_id*6)
+movie_name.remove("Singham")
+movie_name.pop(0)
+movie_name[1]="Drishyam"
+movie_name.clear()
